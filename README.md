@@ -1,25 +1,45 @@
-# NLP-PROJECT
-Logistic Regression-based binary text classifier using TF-IDF features. Includes training, evaluation, and visualization.
+# Real-Time Streaming Quality Analyzer
 
-# Logistic Regression Text Classifier
+This project leverages machine learning and natural language processing to assess and improve the quality of streaming experiences in real time. It simulates live stream data, predicts user satisfaction using a deep neural network, performs sentiment analysis with BERT, and outputs adaptive Quality of Service (QoS) recommendations.
 
-This project contains a Jupyter notebook that demonstrates how to train a binary text classification model using Logistic Regression and TF-IDF feature extraction.
+## 🚀 Features
 
-## 📂 Files
+- **Simulated Live Stream Data**: Generates synthetic metrics like bitrate, buffering, and viewer feedback.
+- **User Satisfaction Prediction**: Trained MLP classifier evaluates the likelihood of user satisfaction.
+- **Sentiment Analysis**: BERT model detects viewer sentiment from messages (scale 1-5).
+- **QoS Decision Engine**: Provides adaptive feedback to improve streaming quality dynamically.
 
-- `Untitled4.ipynb` — Main notebook containing code for preprocessing, training, and evaluating the model.
-- `train.csv` — Dataset file (should contain `text` and `label` columns).
+## 🧠 Technologies Used
 
-## 🧠 Features
+- Python
+- scikit-learn
+- pandas, NumPy
+- PyTorch
+- HuggingFace Transformers (BERT)
+- MLPClassifier (Deep Neural Network)
+- StandardScaler for feature normalization
 
-- Preprocess text data with TF-IDF
-- Train a logistic regression classifier
-- Evaluate the model using accuracy, classification report, and confusion matrix
-- Visualize performance with seaborn heatmaps
+## 📊 Example Output
 
-## 📦 Requirements
 
-Install dependencies using pip:
+🧠 Predicted Satisfaction Probability: 0.78
+💬 Sentiment Score (1-5): 4
+📡 QoS Decision: ✅ Maintain current QoS.
 
-```bash
-pip install pandas scikit-learn matplotlib seaborn
+
+
+## 🧑‍💻 Team Members
+
+- **Harshit Rustagi** (RA2211027010010)
+- **Dheeraj Sharma** (RA2211027010017)
+- **Shreyas Chowdhury** (RA2211027010028)
+- **Anshit Singh** (RA2211027010056)
+
+## 📝 License
+
+This project is intended for educational and academic purposes.
+
+---
+
+
+
