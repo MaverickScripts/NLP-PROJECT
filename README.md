@@ -30,10 +30,8 @@ This project leverages machine learning and natural language processing to asses
 
 ## 🧑‍💻 Team Members
 
-- **Harshit Rustagi** (RA2211027010010)
-- **Dheeraj Sharma** (RA2211027010017)
 - **Shreyas Chowdhury** (RA2211027010028)
-- **Anshit Singh** (RA2211027010056)
+
 
 ## 📝 License
 
